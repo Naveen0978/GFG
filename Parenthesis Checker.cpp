@@ -12,7 +12,7 @@ class Solution
     bool ispar(string x)
     {
         // Your code here
-        stack <int> st;
+        stack <char> st;
         
         for(int i=0; i<x.length();i++)
         {
